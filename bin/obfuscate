@@ -1,0 +1,4 @@
+﻿#!/usr/bin/env ruby
+
+require 'obfuscate_email'
+puts ObfuscateEmail.new(ARGV[0])
