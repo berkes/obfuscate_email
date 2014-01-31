@@ -1,6 +1,6 @@
 ﻿Gem::Specification.new do |s|
   s.name        = 'obfuscate_email'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.summary     = "Obfuscate Email"
   s.description = "Command to obfuscate an email"
   s.authors     = ["Bèr Kessels"]
