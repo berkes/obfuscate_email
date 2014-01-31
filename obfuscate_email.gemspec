@@ -11,4 +11,7 @@
   s.license       = 'MIT'
 
   s.executables  << "obfuscate"
+
+  s.signing_key = File.join(ENV['HOME'], '.ssh', 'gem-private_key.pem')
+  s.cert_chain = [File.join(ENV['HOME'], '.ssh', 'gem-public_cert.pem')]
 end
